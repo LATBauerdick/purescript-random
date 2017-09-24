@@ -2,7 +2,7 @@ module Control.Monad.Eff.Random where
 
 import Prelude
 
-import Control.Monad.Eff (Eff)
+import Control.Monad.Eff (Eff, kind Effect)
 
 import Data.Int (toNumber, floor)
 
